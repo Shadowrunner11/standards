@@ -63,7 +63,7 @@ No debe pasar de los 50 caracteres
   │       │             
   │       │   
   │       │
-  │       └─⫸Resumen en tiempo pasado e imperativo. Sin mayúsculas ni punto final.
+  │       └─⫸Resumen en tiempo presente e imperativo. Sin mayúsculas ni punto final.
   │
   └─⫸ Commit Type: [
   'build',
