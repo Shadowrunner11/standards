@@ -40,7 +40,7 @@ git checkout -b developer/feature
 
 ## Commits
 
-## Formato del mensaje
+### Formato del mensaje
 
 Para poder crear changelogs, se seguirá las recomendaciones de [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary)
 
@@ -80,16 +80,34 @@ No debe pasar de los 50 caracteres
 ]
 ```
 
+#### Ejemplo header
+
+```txt
+feat: Agrega pasarela de pagos con codigo qr
+```
+
 #### Tipos de pr
 
 Más [información](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional) del type
 
 ### Body
 
-No debe exceder los 70 caracteres.
+No debe exceder los 70 caracteres (opcional, preferir multi linea en caso se exceda).
+
+#### Ejemplo body
+
+```txt
+Generación de código QR con la lib XYZ integrando Niubbiz.
+```
 
 Explicar el por qué del cambio.
 
-## Footer
+### Footer
 
 Colocar en caso sean BREAKING CHANGE o DEPRECATION
+
+#### Ejemplo footer
+
+```txt
+BREAKING CHANGE: Se actualiza el script del iframe de Niubiz para comptabilidad con el lector QR
+```
