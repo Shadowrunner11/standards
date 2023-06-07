@@ -16,6 +16,7 @@ Asegurate de que
 
 ## Comportamiento previo
 
+
 Esta seccion es imperativa en caso de bugs, opcional de otro modo.
 
 Referenciar el issue, en caso no exista, describir brevemente (100 caracteres máximo) el problema

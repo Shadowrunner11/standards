@@ -63,7 +63,7 @@ No debe pasar de los 50 caracteres
   │       │             
   │       │   
   │       │
-  │       └─⫸Resumen en tiempo presente e imperativo. Sin mayúsculas ni punto final.
+  │       └─⫸Resumen en tiempo presente y transitivo. Sin mayúsculas ni punto final.
   │
   └─⫸ Commit Type: [
   'build',
@@ -86,7 +86,9 @@ No debe pasar de los 50 caracteres
 feat: Agrega pasarela de pagos con codigo qr
 ```
 
-#### Tipos de pr
+#### Tipos de commit
+
+<!-- TODO: add commit types explanation -->
 
 Más [información](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional) del type
 
@@ -110,4 +112,10 @@ Colocar en caso sean BREAKING CHANGE o DEPRECATION
 
 ```txt
 BREAKING CHANGE: Se actualiza el script del iframe de Niubiz para comptabilidad con el lector QR
+```
+
+<!-- TODO: Add image example of complete commit -->
+
+```bash
+git commit -am "nsvdvsddsv "
 ```
