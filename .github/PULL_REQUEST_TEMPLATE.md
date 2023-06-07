@@ -28,13 +28,13 @@ Esta seccion es imperativa en caso de bugs, opcional de otro modo
 
 Considerar si el cambio se realizo en un modulo o subproceso del cual dependen otros
 
-Considerar si el cambio intrudce fragilidad
+Considerar si el cambio intruduce fragilidad
 
 Considerar si el cambio introduce efectos secundarios importantates
 
 - [ ] Sí
 
-- [ ] NO
+- [ ] No
 
 ## Documentacion realacionada
 
