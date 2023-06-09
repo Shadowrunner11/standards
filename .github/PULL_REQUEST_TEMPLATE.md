@@ -8,7 +8,7 @@ Asegurate de que
 
 - [ ] En caso sea necesario, se halla implementado los cambios correspondientes a los tests.
 
-- [ ] Se halla implementado la documentación necesaria (feature). En caso exista un gist o disccusion, referenciarlo.
+- [ ] Se halla implementada la documentación necesaria (feature). En caso exista un gist o disccusion, referenciarlo.
 
 - [ ] De ser un bug, se referencie el ticket/issue correspondiente en la [seccion](#comportamiento-previo) respectiva.
 
