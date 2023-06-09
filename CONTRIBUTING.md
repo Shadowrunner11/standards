@@ -104,7 +104,7 @@ test: Se añaden tests faltantes o se corrigen los que ya existían
 
 ### Body
 
-No debe exceder los 70 caracteres (opcional, preferir multi linea en caso se exceda).
+No debe exceder los 70 caracteres (opcional, preferir multi línea en caso se exceda).
 
 #### Ejemplo body
 
@@ -112,7 +112,7 @@ No debe exceder los 70 caracteres (opcional, preferir multi linea en caso se exc
 Generación de código QR con la lib XYZ integrando Niubbiz.
 ```
 
-Explicar el por qué del cambio.
+Explicar el porqué del cambio.
 
 ### Footer
 
@@ -121,7 +121,7 @@ Colocar en caso sean BREAKING CHANGE o DEPRECATION
 #### Ejemplo footer
 
 ```txt
-BREAKING CHANGE: Se actualiza el script del iframe de Niubiz para comptabilidad con el lector QR
+BREAKING CHANGE: Se actualiza el script del iframe de Niubiz para compatibilidad con el lector QR
 ```
 
 ### Ejemplos
@@ -141,5 +141,5 @@ git commit -m "docs: Especifica protocolo de commits" -m "Agrega tipos y estruct
 Header + Body
 
 ```bash
-git commit -m "refactor: Traslada peticiones a servicios" -m "SRP por dominio e IoC" -m "DEPRECATION: hooks con la lógica de peticiones deprecados"
+git commit -m "refactor: Traslada peticiones a servicios" -m "SRP por dominio e IoC" -m "DEPRECATION: hooks con la lógica de peticiones quedan deprecados"
 ```
