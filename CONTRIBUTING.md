@@ -2,6 +2,8 @@
 
 ## Envío
 
+Enviar un PR por sub tarea, no enviar PRs con múltiples funcionalidades.
+
 ### workflow
 <!-- TODO: Especificar workflow -->
 
@@ -63,7 +65,7 @@ No debe pasar de los 50 caracteres
   │       │             
   │       │   
   │       │
-  │       └─⫸Resumen en tiempo presente e imperativo. Sin mayúsculas ni punto final.
+  │       └─⫸Resumen en tiempo presente y transitivo. Sin mayúsculas ni punto final.
   │
   └─⫸ Commit Type: [
   'build',
@@ -86,9 +88,19 @@ No debe pasar de los 50 caracteres
 feat: Agrega pasarela de pagos con codigo qr
 ```
 
-#### Tipos de pr
+#### Tipos de commit
 
-Más [información](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional) del type
+Must be one of the following:
+
+build: Cambios que afectan el "build" del sistema o dependencias externas
+ci: Cambios en los archivos de configuración o scripts relacionados con Continuous Integration
+docs: Cambios solo de documentación
+feat: Una funcionalidad nueva
+fix: Fix de un bug
+perf: Cambios que mejoran la performance
+refactor: Cambios que no son ni fix ni nuevas funcionalidades
+style: Cambios que no afectan el sentido del codigo (espacios, formateo , etc)
+test: Se añaden tests faltantes o se corrigen los que ya existían
 
 ### Body
 
@@ -110,4 +122,24 @@ Colocar en caso sean BREAKING CHANGE o DEPRECATION
 
 ```txt
 BREAKING CHANGE: Se actualiza el script del iframe de Niubiz para comptabilidad con el lector QR
+```
+
+### Ejemplos
+
+Solo header
+
+```bash
+git commit -m "docs: Especifica protocolo de commits"
+```
+
+Header + Body
+
+```bash
+git commit -m "docs: Especifica protocolo de commits" -m "Agrega tipos y estructura del mensaje"
+```
+
+Header + Body
+
+```bash
+git commit -m "refactor: Traslada peticiones a servicios" -m "SRP por dominio e IoC" -m "DEPRECATION: hooks con la lógica de peticiones deprecados"
 ```

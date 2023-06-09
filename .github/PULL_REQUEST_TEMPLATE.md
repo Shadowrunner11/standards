@@ -16,28 +16,29 @@ Asegurate de que
 
 ## Comportamiento previo
 
-Esta seccion es imperativa en caso de bugs, opcional de otro modo.
+Solo considerar llenar esta seccion en el caso de bugs, opcional de otro modo.
 
 Referenciar el issue, en caso no exista, describir brevemente (100 caracteres máximo) el problema
 
-## Comportamiento nuevo
+## Comportamiento nuevo/ Descripción del feature
 
-Esta seccion es imperativa en caso de bugs, opcional de otro modo
+Llenar `Comportamiento nuevo` para bugs, y en caso sea un feature, `Descripción del feature`
 
-## Se introdujo un cambio importante (breaking change)?
+## Breaking changes
 
-Considerar si el cambio se realizo en un modulo o subproceso del cual dependen otros
+- [ ] Se realizó en un modulo o subproceso del cual dependen otros?
 
-Considerar si el cambio intruduce fragilidad
+- [ ] Se introduce fragilidad?
 
-Considerar si el cambio introduce efectos secundarios importantates
+- [ ] Se introduce efectos secundarios importantes?
 
-- [ ] Sí
-
-- [ ] No
-
-## Documentacion realacionada
+## Documentacion relacionada
 
 Referenciar disccusions, gists o wikis relacionadas con el cambio
+Esto puedo incluir - pero no solo se limita - links hacia
 
-## Información extra
+- Diagrama de secuencia
+- Diagrama de clases
+- Diagrama de paquetes
+
+## Información adicional
