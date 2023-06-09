@@ -92,15 +92,15 @@ feat: Agrega pasarela de pagos con codigo qr
 
 Must be one of the following:
 
-build: Cambios que afectan el "build" del sistema o dependencias externas
-ci: Cambios en los archivos de configuración o scripts relacionados con Continuous Integration
-docs: Cambios solo de documentación
-feat: Una funcionalidad nueva
-fix: Fix de un bug
-perf: Cambios que mejoran la performance
-refactor: Cambios que no son ni fix ni nuevas funcionalidades
-style: Cambios que no afectan el sentido del codigo (espacios, formateo , etc)
-test: Se añaden tests faltantes o se corrigen los que ya existían
+- build: Cambios que afectan el "build" del sistema o dependencias externas
+- ci: Cambios en los archivos de configuración o scripts relacionados con Continuous Integration
+- docs: Cambios solo de documentación
+- feat: Una funcionalidad nueva
+- fix: Fix de un bug
+- perf: Cambios que mejoran la performance
+- refactor: Cambios que no son ni fix ni nuevas funcionalidades
+- style: Cambios que no afectan el sentido del codigo (espacios, formateo , etc)
+- test: Se añaden tests faltantes o se corrigen los que ya existían
 
 ### Body
 
