@@ -35,7 +35,7 @@ Llenar `Comportamiento nuevo` para bugs, y en caso sea un feature, `Descripción
 ## Documentacion relacionada
 
 Referenciar disccusions, gists o wikis relacionadas con el cambio
-Esto puedo incluir - pero no solo se limita - enlances hacia
+Esto puede incluir - pero no solo se limita - enlances hacia
 
 - Diagrama de secuencia
 - Diagrama de clases
